@@ -1,0 +1,11 @@
+## building dirs and files ##
+build
+dist
+*.egg*
+
+## ipython notebook ##
+.ipynb_checkpoints
+dev_notes
+
+## pyc files ##
+*.pyc
