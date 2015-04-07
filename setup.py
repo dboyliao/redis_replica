@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='redis_replica',
-    version='0.0.2',
+    version='0.0.3',
     description='Redis Replica Set Client',
     author='Yin-Chen Liao',
     author_email='qmalliao@gmail.com',
