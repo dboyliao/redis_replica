@@ -45,7 +45,8 @@ class RedisReplicaClient(StrictRedis):
                     break
                     
                 continue
-                
+    
+    @property            
     def connection_info(self):
         msg = "Current connection established on: {host}:{port}"
         print msg.format(host = self._host, port = self._port)
